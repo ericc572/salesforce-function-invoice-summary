@@ -1,5 +1,5 @@
 /**
- * Describe Myfunction here.
+ * Describe invoiceSummary here.
  *
  * The exported method is the entry point for your code when the function is invoked. 
  *

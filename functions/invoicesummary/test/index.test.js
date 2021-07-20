@@ -4,7 +4,7 @@ const { createSandbox } = require('sinon');
 const execute = require('../index');
 
 /**
- * Myfunction unit tests.
+ * Invoice Summary unit tests.
  */
 
 describe('Unit Tests', () => {
@@ -56,7 +56,7 @@ describe('Unit Tests', () => {
         sandbox.restore();
     });
 
-    it('Invoke Myfunction', async () => {
+    it('Invoke invoice summary', async () => {
         const results = await execute({ data: {} }, mockContext, mockLogger);
 
         expect(mockContext.org.dataApi.query.callCount).to.be.eql(1);
